@@ -16,6 +16,7 @@
     * [Create User And Login](./quick_start/create_user_and_login.md)
     * [OpenId Service Provider registration](./quick_start/openid.md)
     * [Publish And Use](./quick_start/publish_and_use.md)
+    * [Release packages on Github](./quick_start/release_packages_on_github.md)
 
 * [Ktra With Container Orchestration]()
     * [Docker Compose]()
