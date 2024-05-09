@@ -12,8 +12,6 @@ To enable `Ktra` to download the `.crate` file later, the repository needs to be
 
 Add the following workflow to your crate under `.github/workflows/release.yml` to automatically generate a release and append the `.crate` file every time you push to your repository. This will only create a new release if the version number has changed, and panic otherwise.
 
-It doesn't matter if this is done before or after you publish your crate.
-
 TODO!!! 
 Test with private crate
 
