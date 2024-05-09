@@ -4,6 +4,10 @@
 
 The following describes an additional set-up to share your registry with users outside your local and/or server environment.
 
+### Add repository link in Cargo.toml
+
+To enable `Ktra` to download the `.crate` file later, the repository needs to be added in the `Cargo.toml` file before publishing. This adds the repository to the metadata shared in your registry repository.
+
 ### Add github workflow to your crate
 
 Add the following workflow to your crate under `.github/workflows/release.yml` to automatically generate a release and append the `.crate` file every time you push to your repository. This will only create a new release if the version number has changed, and panic otherwise.
